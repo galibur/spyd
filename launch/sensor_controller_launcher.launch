@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="spyd" type="sensor_dht11_publisher.py" name="sensor_dht11_publisher_3" output="screen">	</node>
+	<node pkg="spyd" type="sensor_hc_sr04_ultrasonic_publisher.py" name="sensor_hc_sr04_ultrasonic_publisher_3" output="screen">	</node>
+	<node pkg="spyd" type="sensor_hmc5883l_gyroscope_publisher.py" name="sensor_hmc5883l_gyroscope_publisher_3" output="screen">	</node>
+</launch>

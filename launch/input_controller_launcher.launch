@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="spyd" type="input_gamepad_controller_publisher.py" name="input_gamepad_controller_publisher_3" output="screen">	</node>
+	<node pkg="spyd" type="input_xbox_360_controller_publisher.py" name="input_xbox_360_controller_publisher_3" output="screen">	</node>
+	<node pkg="spyd" type="input_tm1638_button_publisher.py" name="input_tm1638_button_publisher_3" output="screen"></node>
+</launch>

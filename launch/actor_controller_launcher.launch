@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="spyd" type="led_controller_subscriber.py" name="led_controller_subscriber" output="screen">
+	</node>
+</launch>
