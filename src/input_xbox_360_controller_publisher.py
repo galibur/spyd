@@ -60,7 +60,7 @@ class Controller():
 
 
 	def make_msg(self,key, val):
-		self.msg = '{"user_input":"xbox", "' + str(key) + '":' + str(val) + '}'
+		self.msg = '{"user_input":"xbox", "key":"' + str(key) + '", "val":' + str(val) + '}'
 		#print(self.msg)
 		self.publish_message()
 
