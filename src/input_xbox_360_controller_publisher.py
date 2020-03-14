@@ -128,7 +128,7 @@ class Controller():
 
 			if self.joy.dpadRight() != self.right:
 				self.right = self.joy.dpadRight()
-				self.make_msg("RIGHTP", self.right)
+				self.make_msg("RIGHT", self.right)
 
 			if self.joy.dpadUp() != self.up:
 				self.up = self.joy.dpadUp()
